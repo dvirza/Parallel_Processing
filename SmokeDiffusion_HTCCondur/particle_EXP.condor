@@ -1,0 +1,7 @@
+universe = vanilla
+executable = Single_EXP
+arguments = $(Process)
+log = Single_EXP.$(Process).log
+output = Single_EXP.$(Process).out
+error = Single_EXP.$(Process).error
+queue 50
